@@ -27,7 +27,7 @@ function Login() {
 
       console.log("Backend response:", response.data);
 
-      // ✅ for now — simple login flag
+      
       localStorage.setItem("isLoggedIn", "true");
 
       toast.success("Login Successful 🚀", {
